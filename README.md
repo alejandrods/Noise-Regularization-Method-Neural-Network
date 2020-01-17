@@ -40,4 +40,4 @@ We can classify the performance of the model in 3 cases:
 
 It is more likely to face overfitting models in our problems thus, it is important to monitor the performance during training to detect if it has overfitting. It is common to plot the evolution of accuracy and loss during the training to detect usual patterns.
 
-![performance_model](/images/performance.png "Underfit, Good-fit, Overfitting")
+![performance_model](/image/performance.png "Underfit, Good-fit, Overfitting")
