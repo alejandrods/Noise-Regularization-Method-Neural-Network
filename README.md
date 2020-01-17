@@ -19,11 +19,25 @@ You can find the entire code in [Medium](https://medium.com/@alejandrods)! :)
 ## Goals
 
 The objectives of this talk are the following:
-- Generate synthetic data using sklearn.
-- Train a basic Neural Network as a baseline.
+- Generate synthetic data using sklearn
+- Regularization Methods
+- Train a basic Neural Network as a baseline
 - Use noise as regularization method - input layer
 - Use noise as regularization method - hidden layer
 - Use noise as regularization method - input and hidden layer
-- Grid Search to find the values for the best performance of the model.
+- Grid Search to find the values for the best performance of the model
 
 Additionally, we will learn to create a grid to evaluate many points at the same time and check how our model classifies these points plotting a heat-map.
+
+## Regularization Methods
+
+It is a challenge to train a machine learning model that will perform well on previously unseen inputs, not just those on which our model was trained. This feature is called generalization, performs well on unobserved inputs. There are some methods like train-test split or cross-validation to measure how well generalize our model. 
+
+We can classify the performance of the model in 3 cases:
+- The model performs poorly on the training dataset and new data - Underfit Model.
+- The model performs well on the training dataset and poorly on unseen data - Overfit Model.
+- The model learns our training dataset and performs well on unseen data, it is capable to generalize - Good Fit Model
+
+It is more likely to face overfitting models in our problems thus, it is important to monitor the performance during training to detect if it has overfitting. It is common to plot the evolution of accuracy and loss during the training to detect usual patterns.
+
+![performance_model](/images/performance.png "Underfit, Good-fit, Overfitting")
