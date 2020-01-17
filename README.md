@@ -41,3 +41,12 @@ We can classify the performance of the model in 3 cases:
 It is more likely to face overfitting models in our problems thus, it is important to monitor the performance during training to detect if it has overfitting. It is common to plot the evolution of accuracy and loss during the training to detect usual patterns.
 
 ![performance_model](/image/performance.png "Underfit, Good-fit, Overfitting")
+
+## Future Experiments
+- We can improve this experiment of adding noise as regularization method with the next ideas:
+- Add more layers with noise to study his effect.
+– Repeat the same experiments with a deeper neural network.
+- Study the effect of noise as a regularization method in a model without overfitting.
+- Try to add noise to activations, weights and outputs.
+
+Suggestions and reviews are welcome. Follow me and thank you for reading! :)
