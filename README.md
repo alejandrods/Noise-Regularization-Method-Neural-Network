@@ -31,7 +31,7 @@ Additionally, we will learn to create a grid to evaluate many points at the same
 
 ## Regularization Methods
 
-It is a challenge to train a machine learning model that will perform well on previously unseen inputs, not just those on which our model was trained. This feature is called generalization, performs well on unobserved inputs. There are some methods like train-test split or cross-validation to measure how well generalize our model. 
+It is a challenge to train a machine learning model that will perform well on previously unseen inputs, not just those on which our model was trained. This feature is called [generalization](https://books.google.es/books?id=Np9SDQAAQBAJ&pg=PA107&lpg=PA107&dq=The+central+challenge+in+machine+learning+is+that+our+algorithm+must+perform+well+on+...&source=bl&ots=kROllLy-_Z&sig=ACfU3U1FzdT_Vg1GkcsBupzbmt8YHWQvhw&hl=es&sa=X&ved=2ahUKEwiph6T22YfnAhW9DWMBHVkNDkgQ6AEwAHoECAwQAQ#v=onepage&q=The%20central%20challenge%20in%20machine%20learning%20is%20that%20our%20algorithm%20must%20perform%20well%20on%20...&f=false), performs well on unobserved inputs. There are some methods like train-test split or cross-validation to measure how well generalize our model. 
 
 We can classify the performance of the model in 3 cases:
 - The model performs poorly on the training dataset and new data - Underfit Model.
@@ -41,6 +41,14 @@ We can classify the performance of the model in 3 cases:
 It is more likely to face overfitting models in our problems thus, it is important to monitor the performance during training to detect if it has overfitting. It is common to plot the evolution of accuracy and loss during the training to detect usual patterns.
 
 ![performance_model](/image/performance.png "Underfit, Good-fit, Overfitting")
+
+[Regularization](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a) is to modify our learning algorithm to reduce its generalization error but not its training error. The most common regularization methods in neural networks are:
+- Dropout: Turn on some neuron in each iteration with probability p.
+- Early Stopping: Provide guidance as to how many iterations can be run before the model begins to overfit.
+- Weight Constraint: Scales weights to a pre-defined threshold.
+- Noise: Introduce stochastic noise into training process.
+
+These methods are popular in neural networks and most of them have been proven to reduce overfitting. However, the effect of noise on deep learning models has never been systematically studied, nor is the underlying reason for the improved accuracy. [One hypothesis of the above observation is that relaxing consistency introduces stochastic noise into training process.](https://pdfs.semanticscholar.org/d79b/a428e1cf1b8aa5d320a93166315bb30b4765.pdf) This implicitly mitigates the overfitting of the model and generalizes the model better to classify test data.
 
 ## Future Experiments
 - We can improve this experiment of adding noise as regularization method with the next ideas:
