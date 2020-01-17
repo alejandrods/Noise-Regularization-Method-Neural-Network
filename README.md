@@ -3,8 +3,6 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1P71Q7-C08yTlvwbI4tNJWTnkYbJyXSID)
 
-[![Open In Medium](/image/iconmonstr-medium-3.svg](https://medium.com/@alejandrods)
-
 One of the first concepts you learn when you are beginning to study neural networks is the meaning of overfitting or underfitting. Many times, it is a challenge to train a model that generalize perfectly your data, especially when you have a small dataset because:
 
 - When you train a neural network with small datasets, generally the network memorizes the training dataset instead of learning general features of our data. For this reason, the model will perform well on the training set and poor on new data (for instance: the test dataset)
