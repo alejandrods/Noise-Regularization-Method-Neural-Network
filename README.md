@@ -1,7 +1,7 @@
 # Noise: It's not always annoying
 ### Adding noise as regularization method to reduce overffiting in neural networks
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1bXytUXmEg8gHyX1lXD705vC6umOBlM-n/view?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1P71Q7-C08yTlvwbI4tNJWTnkYbJyXSID)
 
 
 One of the first concepts you learn when you are beginning to study neural networks is the meaning of overfitting or underfitting. Many times, it is a challenge to train a model that generalize perfectly your data, especially when you have a small dataset because:
