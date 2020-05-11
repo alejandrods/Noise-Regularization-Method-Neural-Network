@@ -13,7 +13,7 @@ To acquire more data it is a very expensive and arduous task. However, sometimes
 
 In this talk, we are focusing on the use of noise as a regularizing method in a neural network. This technique not only reduces overfitting, but it can also lead to faster optimization of our model and better overall performance.
 
-You can find the entire code in [Medium](https://medium.com/@alejandrods)! :)
+You can find the entire article in [Medium](https://medium.com/@alejandrods)! :)
 
 ## Goals
 
